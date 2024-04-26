@@ -34,7 +34,9 @@ public class Reserva {
 	@Column(name = "servicio")
 	private String servicio;
 	
-
+	@Column(name = "servicio1")
+	private String servicio1;
+	
 	@Column(name = "fecha")
 	 @DateTimeFormat(pattern = "yyyy-MM-dd")
 	private Date fecha;
