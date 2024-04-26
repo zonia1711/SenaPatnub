@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="https://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initia-scale=1.0">
+	<title>PATNUB-Lakshmi</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link th:href="@{/css/home.css}" rel="stylesheet">
+</head>
+
+<body>
+	<!-- P: Representa "Peinados" elegantes y profesionales que ofrece la peluquería.
+        A: Simboliza "Arreglo" personalizado para cada cliente, realzando su belleza.
+        T: Significa "Tendencias" modernas y a la moda en cortes y estilos.
+        N: Evoca "Nueva imagen" y renovación que los clientes pueden experimentar.
+        U: Refleja "Único" y exclusivo, ya que cada cliente recibe un trato especial.
+        B: Hace referencia a "Belleza" y bienestar, lo que la peluquería busca resaltar.-->
+	<nav class=" navbar-expand-lg bg-dark navbar-dark">
+		<a class="btn btn-danger" id="home" th:href="@{/Homeshape}">Inicio</a>
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Registrate</a>
+		<!-- Navbar links -->
+
+	</nav>
+
+	<div class="container">
+		<a class="navbar-brand" href="#page-top"><img src="/images/logoo1.png" /></a>
+		<div class="row justify-content-center">
+			<h2> Iniciar sesión <span class="logo">
+					<div class="col-md-6">
+						<form th:action="@{/save}" th:object="${Ingreso}" method="post">
+							<div class="form-group">
+								<label> ¿No tienes cuenta?</label>
+								<a th:href="@{/RegistroClientes}">Registrate</a>
+							</div>
+							<div class="form-group">
+								<label> Usuario</label>
+								<input type="text" th:field="*{usuario}" class="form-control" placeholder="usuario"
+									required>
+								<!--<i class="fas fa-user"></i>-->
+								<label>Contraseña</label>
+								<input type="password" th:field="*{Contraseña}" class="form-control"
+									placeholder="Contraseña" required>
+							</div>
+
+							<div class="items">
+								<div class="left">
+									<input type="checkbox" id="check">
+									<label for="check"> Recordar</label>
+								</div>
+								<div class="rigth">
+									<a href="#"> Olvide mi Contraseña</a>
+								</div>
+
+							</div>
+							<div class="button">
+								<button type="submit" class="btn btn-success" th:action="@{/Homeshape}"
+									id="loginButton">Iniciar sesión</button>
+							</div>
+							<!--<div class="other-links">
+									<p>Ingresar con:</p>
+									<div class="social">
+										<a  th:href="#"><i class="fab fa-google"></i></a>
+											<a  th:href="#"><i class="fab fa-facebook"></i></a>
+											<a  th:href="#"><i class="fab fa-twitter"></i></a>
+									</div>-->
+					</div>
+		</div>
+	</div>
+	</div>
+	</div>
+
+
+	</form>
+
+</body>
+
+</html>

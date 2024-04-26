@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PATNUB-Lakshmi</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link th:href="@{/css/estilosI.css}" rel="stylesheet">
+</head>
+
+<body id="page-top">
+	<!-- Navigation-->
+	
+	<nav class=" navbar-expand-lg bg-dark navbar-dark">
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Servicios</a></li>
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Galeria</a></li>
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Planes</a></li>
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Equipo</a></li>
+		<a class="btn btn-danger" id="home" th:href="@{/RegistroClientes}">Contactos</a></li>
+		<!--<li class="nav-item"><a class="nav-link btn" th:href="@{/RegistroClientes}">Reservas</a></li>-->
+		<a class="btn btn-danger" id="home" th:href="@{/Ingreso}">Login</a></li>
+	</nav>
+	<!-- Masthead-->
+
+	<header class="Bienvenidos">
+		<div class="container1">
+			<div class="Bienvenidos"> </div>
+			<h3> Bienvenidos!</h3>
+			<div class="masthead-heading text-uppercase">PATNUb. Te ofrece una experiencia única."</div>
+			<a class="btn btn-primary btn-xl text-uppercase" href="#services">Lakshmi</a>
+		</div>
+	</header>
+	</header>
+	<!-- Services-->
+	<section class="page-section" id="services">
+		<div class="container3">
+		 <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <img src="images/imgPatnub/fondologin.png" alt="Tu descripción de la imagen" class="fa-stack-2x text-primary">
+                        </span>
+                        <h4 class="my-3">SALA DE BELLEZA</h4>
+                        <p class="text-muted">"Peluquería Laskmi es tu destino de belleza integral, donde la elegancia y el cuidado personal se unen para realzar tu belleza natural.</p>
+                    </div>
+			
+					<h4 class="my-3">SALA DE BELLEZA</h4>
+					<p class="text-muted">"Peluquería Laskmi es tu destino de belleza integral, donde la elegancia y
+						el cuidado personal se unen para realzar tu belleza natural.</p>
+				</div>
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<img src="images/imgPatnub/servicio1 - copia.jpg" alt="Tu descripción de la imagen"
+							class="fa-stack-2x text-primary">
+					</span>
+					<h4 class="my-3">PELUQUERÍA</h4>
+					<p class="text-muted"> Cortes de cabello a la última moda hasta tratamientos capilares
+						rejuvenecedores</p>
+				</div>
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<img src="images/imgPatnub/depilacion.jpg" alt="Tu descripción de la imagen"
+							class="fa-stack-2x text-primary">
+					</span>
+					<h4 class="my-3">DEPILACIONES</h4>
+					<p class="text-muted">Depilación precisa, te ofrecemos una experiencia de belleza única y
+						relajante. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- galeria Grid-->
+	<section class="page-section bg-light" id="galeria">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Galeria</h2>
+				<h3 class="section-subheading text-muted">Alguno de nuestro servicios.</h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<!-- galeria item 1-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal1">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub//novios1.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">novias</div>
+							<div class="galeria-caption-subheading text-muted">Bodas</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<!-- galeria item 2-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal2">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub/servicio8.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">Manicure</div>
+							<div class="galeria-caption-subheading text-muted">Toda ocación</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4">
+					<!-- galeria item 3-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal3">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub/shampo.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">Shampo</div>
+							<div class="galeria-caption-subheading text-muted">Tratamiento</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+					<!-- galeria item 4-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal4">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub/elegante.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">Pedicure</div>
+							<div class="galeria-caption-subheading text-muted">Toda ocación</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+					<!-- galeria item 5-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal5">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub/trenza1.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">Trenzas</div>
+							<div class="galeria-caption-subheading text-muted">Todo tipo</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<!-- galeria item 6-->
+					<div class="galeria-item">
+						<a class="galeria-link" data-bs-toggle="modal" href="#galeriaModal6">
+							<div class="galeria-hover">
+								<div class="galeria-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+							</div>
+							<img class="img-fluid" src="images/imgPatnub/hombres.jpg" alt="..." />
+						</a>
+						<div class="galeria-caption">
+							<div class="galeria-caption-heading">Corte caballero</div>
+							<div class="galeria-caption-subheading text-muted">Cortes modernos</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- About-->
+	<section class="page-section" id="about">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Planes</h2>
+				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+			</div>
+			<ul class="timeline">
+				<li>
+					<div class="timeline-image"><img class="rounded-circle img-fluid" src="images/imgPatnub/parejajpg"
+							alt="..." /></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4>Todo el año</h4>
+							<h4 class="subheading">Plan acompañantes</h4>
+						</div>
+						<div class="timeline-body">
+							<p class="text-muted">Nuestro "Plan Acompañantes" es perfecto para quienes desean lucir
+								radiantes en eventos especiales. Ya sea que estén asistiendo a una boda, graduación o
+								cualquier ocasión especial, nuestro equipo de expertos en belleza se encargará de
+								realzar la belleza de todo el grupo. Ofrecemos una gama completa de servicios, desde
+								peinados y maquillaje hasta tratamientos de uñas, para que todos se sientan especiales y
+								deslumbren en ese día tan importante.!</p>
+						</div>
+					</div>
+				</li>
+				<li class="timeline-inverted">
+					<div class="timeline-image"><img class="rounded-circle img-fluid1" src="images/imgPatnub/quinceañera.jpg"
+							alt="..." /></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4>Todo el año</h4>
+							<h4 class="subheading">Plan quinceañeras</h4>
+						</div>
+						<div class="timeline-body">
+							<p class="text-muted">Celebra tu Quinceañera con un look que refleje tu personalidad y
+								estilo. Nuestro "Plan Quinceañera" te ofrece un día lleno de mimos y cuidado
+								personalizado. Desde peinados de ensueño hasta maquillaje deslumbrante, nos aseguramos
+								de que tu día especial sea inolvidable. También ofrecemos servicios para tus damas de
+								honor y familiares para que todos estén a la altura de la ocasión.!</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-image"><img class="rounded-circle img-fluid2" src="images/imgPatnub/boda.jpg"
+							alt="..." /></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4>Todo el año</h4>
+							<h4 class="subheading">Plan novios</h4>
+						</div>
+						<div class="timeline-body">
+							<p class="text-muted">Para los novios que desean lucir impecables el día de su boda, nuestro
+								"Plan Novios" es la elección perfecta. Nuestros expertos en belleza masculina te
+								brindarán tratamientos faciales, corte de cabello y afeitado de primera clase para que
+								estés radiante cuando digas "Sí, acepto". También ofrecemos servicios para el novio y
+								los acompañantes.!</p>
+						</div>
+					</div>
+				</li>
+				<li class="timeline-inverted">
+					<div class="timeline-image"><img class="rounded-circle img-fluid3" src="images/imgPatnub/paajesitos.jpg"
+							alt="..." /></div>
+					<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4>Todo el año</h4>
+							<h4 class="subheading">Plan pajecitos</h4>
+						</div>
+						<div class="timeline-body">
+							<p class="text-muted">Los más pequeños de la boda también merecen sentirse especiales.
+								Nuestro "Plan Pajecitos" está diseñado para brindarles una experiencia divertida y
+								relajante en la peluquería. Ofrecemos peinados adorables y opciones de maquillaje suave
+								para que los pajecitos se vean encantadores mientras participan en el gran día.!</p>
+						</div>
+					</div>
+				</li>
+				<li class="timeline-inverted">
+					<div class="timeline-image">
+						<h4>
+							Plan grados
+							<br />
+							Plan comunión
+							<br />
+							Plan bautismo
+						</h4>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- Team-->
+	<section class="page-section bg-light" id="team">
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">NUESTRO INCREÍBLE EQUIPO</h2>
+				<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="images/imgPatnub//estilista.jpg" alt="..." />
+						<h4>Maria Gonzales </h4>
+						<p class="text-muted">Estilista principal</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i
+								class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i
+								class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i
+								class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="images/imgPatnub/estilista1.jpg" alt="..." />
+						<h4>Sandra Benitez</h4>
+						<p class="text-muted">Manicurita</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i
+								class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"
+							aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!"
+							aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="team-member">
+						<img class="mx-auto rounded-circle" src="images/imgPatnub/estilista2.jpg" alt="..." />
+						<h4>Daniela Gomez</h4>
+						<p class="text-muted">Estilista general</p>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i
+								class="fab fa-twitter"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i
+								class="fab fa-facebook-f"></i></a>
+						<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i
+								class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 mx-auto text-center">
+					<p class="large text-muted"> Nuestro experimentado equipo de estilistas y profesionales de la
+						belleza está dedicado a brindarte servicios de alta calidad.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact-->
+	<section class="page-section" id="contact">
+		<div class="container2">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Contactos</h2>
+				<h3 class="section-subheading text-muted"></h3>
+			</div>
+
+			<!-- https://startbootstrap.com/solution/contact-forms-->
+			<!-- to get an API token!-->
+			<form id="contactForm" data-sb-form-api-token="API_TOKEN">
+				<div class="row align-items-stretch mb-5">
+					<div class="col-md-6">
+						<div class="form-group">
+							<!-- Name input-->
+							<h2>Direccion:</h2>
+							<p>CR 5 #10- 26</p>
+							<p>Reservas:</p>
+							<p>3205906095</p>
+						</div>
+						<div class="form-group3">
+							<a href="#">
+								<img src="images/imgPatnub/Ubicacion.jpeg" alt="Logo de SLee Dw">
+							</a>
+						</div>
+						<div class="form-group1 ">
+							<h2>Horario:</h2>
+							<p>Lunes-Viernes</p>
+							<p>7am - 8:30pm</p>
+							<p>Sabados-Domingos</p>
+							<p>Cerrado</p>
+						</div>
+						<div class="form-group mb-md-0">
+							<!-- logo-contacto-->
+							<figure>
+								<a href="#">
+									<img src="../imagenes/logoo1.png" alt="Logo de SLee Dw">
+								</a>
+							</figure>
+						</div>
+
+						<div class="d-none" id="submitSuccessMessage">
+							<div class="text-center text-white mb-3">
+								<div class="fw-bolder">Form submission successful!</div>
+								To activate this form, sign up at
+								<br />
+								<a
+									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+							</div>
+						</div>
+						<div class="d-none" id="submitErrorMessage">
+							<div class="text-center text-danger mb-3">Error sending message!</div>
+						</div>
+						<!-- Submit Button-->
+
+					</div>
+	</section>
+	<!-- Footer-->
+	<footer class="footer py-4">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+				<div class="col-lg-4 my-3 my-lg-0">
+					<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i
+							class="fab fa-twitter"></i></a>
+					<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i
+							class="fab fa-facebook-f"></i></a>
+					<a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i
+							class="fab fa-linkedin-in"></i></a>
+				</div>
+				<div class="col-lg-4 text-lg-end">
+					<a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+					<a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- galeria Modals-->
+	<!-- galeria item 1 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal1" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Novios</h2>
+								<p class="item-intro text-muted">Desean lucir impecables en el día de su boda:</p>
+								<img class="img-fluid d-block mx-auto" src="images/imgPatnub/novios2.jpg" alt="..." />
+								<p>En un día tan especial, te mereces una experiencia de belleza que resalte tu
+									atractivo natural. Nuestro equipo de profesionales está comprometido a brindarte un
+									servicio excepcional que te haga sentir seguro y hermoso en tu boda. ¡Contáctanos
+									hoy mismo para agendar tu cita y discutir tus necesidades específicas para el día de
+									tu boda!!</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+								</ul>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Cerrar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- galeria item 2 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Manicure</h2>
+								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+								<img class="img-fluid d-block mx-auto" src="../imagenes/manicuren.jpg" alt="..." />
+								<p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+									repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+									nostrum, reiciendis facere nemo!</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+									<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+										type="button">
+										<i class="fas fa-xmark me-1"></i>
+										Cerrar
+									</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- galeria  item 3 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal3" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Shampo</h2>
+								<p class="item-intro text-muted"> Disfrute de un masaje relajante durante el tratamiento
+									que no solo estimula el cuero cabelludo, sino que también proporciona una sensación
+									de bienestar:</p>
+								<img class="img-fluid d-block mx-auto" src="../imagenes/shampo1.jpg" alt="..." />
+								<p>En nuestra peluquería, ofrecemos un tratamiento de champú de primera calidad que
+									revitaliza y restaura la salud de tu cabello. Sabemos que un cabello saludable es
+									esencial para sentirte seguro y hermoso!</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+								</ul>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Cerrar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- galeria item 4 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal4" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Pedicure</h2>
+								<p class="item-intro text-muted">Sumérgete en un ambiente relajante mientras nuestros
+									terapeutas expertos cuidan tus pies con una exquisita atención al detalle.:</p>
+								<img class="img-fluid d-block mx-auto" src="../imagenes/pedicure.png" alt="..." />
+								<p> Te ofrecemos un servicio de pedicura de lujo que combina la relajación con el
+									cuidado meticuloso de tus pies. Nuestro equipo de profesionales te brindará una
+									experiencia única para que tus pies luzcan y se sientan increíbles.!</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+								</ul>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Cerrar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- galeria item 5 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal5" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Trenzas</h2>
+								<p class="item-intro text-muted">Eleva tu estilo y Belleza natura:</p>
+								<img class="img-fluid d-block mx-auto" src="images/imgPatnub/trenzas2.jpg " alt="..." />
+								<p>¿Lista para transformar tu look y destacar en cualquier ocasión? Ven a nuestro salón
+									de belleza y descubre cómo las trenzas pueden realzar tu belleza y estilo. ¡Agenda
+									tu cita con nuestros talentosos estilistas hoy mismo !</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+								</ul>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Cerrar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- galeria item 6 modal popup-->
+	<div class="galeria-modal modal fade" id="galeriaModal6" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+						alt="Close modal" /></div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-8">
+							<div class="modal-body">
+								<!-- Project details-->
+								<h2 class="text-uppercase">Corte Adultos</h2>
+								<p class="item-intro text-muted">Combina la elegancia clásica con un toque de
+									modernidad:</p>
+								<img class="img-fluid d-block mx-auto" src="../imagenes/corteadulto.jpg" alt="..." />
+								<p>Experimenta la transformación definitiva con nuestros cortes de cabello para hombres.
+									En nuestro salón, el arte de la barbería se combina con la última moda masculina
+									para ofrecerte un estilo personalizado que refleje tu personalidad y confianza.!</p>
+								<ul class="list-inline">
+									<!-- <li>
+                                            <strong>Client:</strong>
+                                            DAYAN
+                                        </li>
+                                        <li>
+                                           <strong>Category:</strong>
+                                          
+                                        </li>-->
+								</ul>
+								<button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+									type="button">
+									<i class="fas fa-xmark me-1"></i>
+									Cerrar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

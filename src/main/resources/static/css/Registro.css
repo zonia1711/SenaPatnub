@@ -1,0 +1,148 @@
+body {
+	background-image: url('../images/somos.jpg');
+}
+
+.container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	background-image: linear-gradient(to bottom, #dbb4cf6b, #b580af52);
+	padding: 50px 15px;
+	width: 500px;
+	height: 600px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 10px;
+	animation: show 1s;
+	margin-top: 5%;
+}
+.btn-danger {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ed5a99;
+    --bs-btn-border-color: #ed5a99;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(0, 0, 255);
+    --bs-btn-hover-border-color: rgb(0, 0, 255);
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #b02a37;
+    --bs-btn-active-border-color: rgb(0, 0, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #dc3545;
+    --bs-btn-disabled-border-color: #ed5a99;
+}
+img {
+	width: 100px;
+	height: auto;
+	position: absolute;
+	top: -90px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.row.justify-content-center {
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.rigth {
+	position: absolute;
+	font-size: 10px;
+	margin-left: 80px;
+}
+
+input#check {
+	margin-left: -55px;
+}
+
+nav.navbar-expand-lg.bg-dark.navbar-dark {
+	margin-top: -8px;
+	/* Puedes ajustar el valor según la cantidad de espacio que desees dejar en el borde superior */
+}
+
+.form-group {
+	background-image: linear-gradient(to bottom, #dbb4cf6b, #b580af52);
+	width: 300px;
+	position: relative;
+	margin-top: 0px;
+	margin-left: -65px;
+}
+
+a {
+	color:rgb(0, 0, 255);
+	text-decoration: underline;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+label {
+	font-size: 15px;
+	margin-bottom: 5px;
+	/* Puedes ajustar el valor según la cantidad que desees reducir la distancia */
+}
+
+.input#Contraseña {
+	margin-top: -10px;
+}
+
+h2 {
+    color: rgb(0, 0, 255);
+	font-size: 30px;
+	margin-top: 30px;
+	margin-left: -10px;
+}
+
+.button>button {
+	width: 90%;
+	background: #e7d4d0;
+	border-radius: 1px solid transparent;
+	outline: none;
+	border-radius: 100vmax;
+	padding: 10px 0;
+	cursor: pointer;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	transition: 0.5s;
+	margin-top: 50px;
+	margin-left: 90px;
+}
+.btn-success {
+    width: 40%;
+	background: #e7d4d0;
+	border-radius: 1px solid transparent;
+	outline: none;
+	border-radius: 100vmax;
+	padding: 10px 0;
+	cursor:pointer;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	transition: 0.5s;
+	margin-top: 30px;
+}
+.btn-success {
+    --bs-btn-color: rgb(0, 0, 0);
+    --bs-btn-bg:rgb(0, 0, 151);
+    --bs-btn-border-color:rgb(0, 0, 255);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg:rgb(0, 0, 255);
+    --bs-btn-hover-border-color: #146c43;
+    --bs-btn-focus-shadow-rgb: 60, 153, 110;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #146c43;
+    --bs-btn-active-border-color: rgb(0, 0, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #198754;
+    --bs-btn-disabled-border-color: rgb(0, 0, 255);
+}
+
+div {
+	display: block;
+	unicode-bidi: isolate;
+}
+
+select#estilista {
+    /* position: relative; */
+    margin-top: 20px;
+}
